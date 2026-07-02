@@ -1,5 +1,5 @@
 /* ============================================================
-   ETC Hearing Solutions Inc. — Main Stylesheet
+   ETC Testing  -  Main Stylesheet
    Color Palette: Navy Blue / White / Green Accent
    ============================================================ */
 
@@ -481,7 +481,9 @@ p:last-child { margin-bottom: 0; }
   border-radius: var(--radius-sm);
   display: flex; align-items: center; justify-content: center;
   flex-shrink: 0;
+  margin-bottom: 18px;
 }
+.hero-card:first-child .hero-card-icon { margin-bottom: 0; }
 .hero-card-icon svg { width: 22px; height: 22px; color: #6BCF97; }
 .hero-card h4 { color: var(--white); font-size: 0.9rem; margin-bottom: 4px; }
 .hero-card p  { color: rgba(255,255,255,0.55); font-size: 0.78rem; margin: 0; line-height: 1.4; }
